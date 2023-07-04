@@ -8,3 +8,6 @@ title = "数学建模"
 [preprocessor.toc]
 command = "mdbook-toc"
 renderer = ["html"]
+[preprocessor.katex]
+after = ["links"]
+
