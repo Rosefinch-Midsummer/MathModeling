@@ -3,4 +3,8 @@ authors = ["RM"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Mdbook Template"
+title = "数学建模"
+
+[preprocessor.toc]
+command = "mdbook-toc"
+renderer = ["html"]
